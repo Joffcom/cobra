@@ -38,6 +38,9 @@ var templateFuncs = template.FuncMap{
 
 var initializers []func()
 
+// EnableWindowsMouseTrap allows turning on an information screen for when application is double clicked on Windows
+var EnableWindowsMouseTrap = true
+
 // EnablePrefixMatching allows to set automatic prefix matching. Automatic prefix matching can be a dangerous thing
 // to automatically enable in CLI tools.
 // Set this to true to enable it.
